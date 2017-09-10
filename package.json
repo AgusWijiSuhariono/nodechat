@@ -1,0 +1,15 @@
+{
+  "name": "belajarchat",
+  "version": "1.0.0",
+  "description": "belajar chat dengan nodejs",
+  "main": "aps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agus",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io" : "*",
+    "express" : "*"
+  }
+}
