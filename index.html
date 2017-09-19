@@ -113,6 +113,12 @@
 				username.val('');
 			});
 
+			$('#message').keydown(function(evt){
+				if(evt.keyCode == 13){
+					messageForm.submit();
+				}
+			});
+
 			socket.on('get users', function (data) {
 				var html = "";
 				for (i = 0; i < data.length; i++) {
